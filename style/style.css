@@ -641,7 +641,7 @@ color: #4C4C4C;
     top: 10px;
     right: -35px;
     cursor: pointer;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-around;
     /* background-color: white; */
@@ -705,6 +705,9 @@ color: #4C4C4C;
   header nav{
     display: none;
   }
+  .menu__btn{
+   display: flex; 
+ }
 }
 @media (max-width:543px) {
 
